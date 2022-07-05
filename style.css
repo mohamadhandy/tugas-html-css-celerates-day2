@@ -96,8 +96,6 @@ img {
   display: flex;
   text-align: center;
   justify-content: center;
-  height: 100%;
-  /* height disini gak ngaruh? */
 
 }
 
@@ -113,16 +111,12 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-  /* width 100% gak ngaruh? */
 }
 
 .flex-columns .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
   flex: 1;
-  /* flex basis gak ngaruh */
 }
 
 .flex-columns .column .column-1,
@@ -178,9 +172,7 @@ img {
 
 .flex-grid .row {
   display: flex;
-  flex-wrap: wrap;
   padding: 0 4px;
-  /* flex wrap gak ngaruh? */
 }
 
 .flex-grid .column {
